@@ -6,7 +6,7 @@ export default async function Home() {
   });
   const data = await time.json();
   const datetime = new Date(data.datetime);
-  const evenEasierToReadDate = datetime.toLocaleTimeString("en=GB");
+  const evenEasierToReadDate = datetime.toLocaleTimeString("en-GB");
 
   console.log(data);
 
