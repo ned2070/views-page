@@ -9,7 +9,7 @@ export default async function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-slate-600 font-mono">
-      <p>You're looking at my root route.</p>
+      <p>You are looking at my root route.</p>
     </main>
   );
 }
